@@ -43,8 +43,8 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     //Coroutines
-    implementation ("androidx.activity:activity-ktx:1.7.1")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation ("androidx.activity:activity-ktx:1.8.2")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
 
     //Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
