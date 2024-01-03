@@ -2,6 +2,7 @@ package com.javicia.coroutineszerotohero
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.create
 
 object RetrofitHelper {
 
@@ -14,6 +15,6 @@ object RetrofitHelper {
         .build()
 
     fun getInstance():ApiService{
-
+    return retrofit.create(ApiService::class.java)
     }
 }

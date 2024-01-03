@@ -8,7 +8,7 @@ import retrofit2.http.Path
 interface ApiService {
 
     @GET("/api/10229233666327556/search/{name}")
-    fun getSuperHero(@Path("name")superHeroName:String): Response<SuperHeroDataResponse>
+    suspend fun getSuperHero(@Path("name")superHeroName:String): Response<SuperHeroDataResponse>
 }
 
 //Esta data class debería ir en otra clase
